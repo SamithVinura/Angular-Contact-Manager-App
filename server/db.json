@@ -1,0 +1,62 @@
+{
+  "contacts": [
+    {
+      "id": "D6BNdWnHIcxc",
+      "name": "Brad Gibson",
+      "company": "YouTube",
+      "email": "brad@gmail.com",
+      "title": "Youtuber",
+      "mobile": "9876546787",
+      "photo": "https://www.shareicon.net/data/128x128/2016/09/15/829452_user_512x512.png",
+      "groupId": "3"
+    },
+    {
+      "id": "D6BNdWncxcxcHI",
+      "name": "Brad Gibson",
+      "company": "YouTube",
+      "email": "brad@gmail.com",
+      "title": "Youtuber",
+      "mobile": "9876546787",
+      "photo": "https://www.shareicon.net/data/128x128/2016/09/15/829458_user_512x512.png",
+      "groupId": "3"
+    },
+    {
+      "id": "D6BNdWnasasHI",
+      "name": "Brad Gibson",
+      "company": "YouTube",
+      "email": "brad@gmail.com",
+      "title": "Youtuber",
+      "mobile": "9876546787",
+      "photo": "https://www.shareicon.net/data/128x128/2016/08/18/813786_speaker_512x512.png",
+      "groupId": "3"
+    },
+    {
+      "id": "D6BNddadWnHI",
+      "name": "Brad Gibson",
+      "company": "YouTube",
+      "email": "brad@gmail.com",
+      "title": "Youtuber",
+      "mobile": "9876546787",
+      "photo": "https://www.shareicon.net/data/128x128/2016/09/15/829452_user_512x512.png",
+      "groupId": "3"
+    }
+  ],
+  "groups":[
+    {
+      "id":"1",
+      "name":"colleague"
+    },
+    {
+      "id":"2",
+      "name":"Friend"
+    },
+    {
+      "id":"3",
+      "name":"Family"
+    },
+    {
+      "id":"4",
+      "name":"Community"
+    }
+  ]
+}
