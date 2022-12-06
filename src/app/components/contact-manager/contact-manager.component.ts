@@ -11,6 +11,7 @@ export class ContactManagerComponent implements OnInit {
   public loading: boolean = false;
   public contacts: IContact[] = [];
   public errorMessage: string | null = null;
+  public searchValue :string =''
   constructor(private contactService: ContactService) {}
 
   ngOnInit(): void {
@@ -35,7 +36,7 @@ export class ContactManagerComponent implements OnInit {
         this.errorMessage=error
       })
     }
-
-
   }
+
+
 }
