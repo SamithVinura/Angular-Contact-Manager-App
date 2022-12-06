@@ -31,6 +31,19 @@
   </div>
 </div>
 
+<div *ngIf="loading">
+  <app-spinner></app-spinner>
+</div>
+
+<div *ngIf="!loading && errorMessage">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="container mt-3" *ngIf="!loading && contacts.length >0">
   <div class="row">
@@ -49,13 +62,13 @@
               </ul>
             </div>
             <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center">
-              <a routerLink="/contact/view/:contactId" class="btn btn-warning my-1">
+              <a routerLink="/contact/view/{{contact.id}}" class="btn btn-warning my-1">
                 <i class="fa fa-eye"></i>
               </a>
-              <a routerLink="/contact/edit/:contactId" class="btn btn-primary my-1">
+              <a routerLink="/contact/edit/{{contact.id}}" class="btn btn-primary my-1">
                 <i class="fa fa-pen"></i>
               </a>
-              <button class="btn btn-danger my-1">
+              <button class="btn btn-danger my-1" (click)="deleteContact(contact.id)">
                 <i class="fa fa-trash"></i>
               </button>
             </div>
